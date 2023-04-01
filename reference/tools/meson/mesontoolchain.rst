@@ -86,15 +86,15 @@ the ``[project options]`` section of the files `conan_meson_native.ini` and `con
 (see more information about `Meson directories <https://mesonbuild.com/Builtin-options.html#directories>`__):
 
 
-``bindir``: value coming from ``self.cpp.package.bindirs``. Defaulted to None.
-``sbindir``: value coming from ``self.cpp.package.bindirs``. Defaulted to None.
-``libexecdir``: value coming from ``self.cpp.package.bindirs``. Defaulted to None.
-``datadir``: value coming from ``self.cpp.package.resdirs``. Defaulted to None.
-``localedir``: value coming from ``self.cpp.package.resdirs``. Defaulted to None.
-``mandir``: value coming from ``self.cpp.package.resdirs``. Defaulted to None.
-``infodir``: value coming from ``self.cpp.package.resdirs``. Defaulted to None.
-``includedir``: value coming from ``self.cpp.package.includedirs``. Defaulted to None.
-``libdir``: value coming from ``self.cpp.package.libdirs``. Defaulted to None.
+ * ``bindir``: value coming from ``self.cpp.package.bindirs``. Defaulted to None.
+ * ``sbindir``: value coming from ``self.cpp.package.bindirs``. Defaulted to None.
+ * ``libexecdir``: value coming from ``self.cpp.package.bindirs``. Defaulted to None.
+ * ``datadir``: value coming from ``self.cpp.package.resdirs``. Defaulted to None.
+ * ``localedir``: value coming from ``self.cpp.package.resdirs``. Defaulted to None.
+ * ``mandir``: value coming from ``self.cpp.package.resdirs``. Defaulted to None.
+ * ``infodir``: value coming from ``self.cpp.package.resdirs``. Defaulted to None.
+ * ``includedir``: value coming from ``self.cpp.package.includedirs``. Defaulted to None.
+ * ``libdir``: value coming from ``self.cpp.package.libdirs``. Defaulted to None.
 
 Notice that it needs a ``layout`` to be able to initialize those ``self.cpp.package.xxxxx`` variables. For instance:
 
